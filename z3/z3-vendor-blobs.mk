@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/z3/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/z3/proprietary/bin/rild:system/bin/rild \
     vendor/sony/z3/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/z3/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/z3/proprietary/bin/suntrold:system/bin/suntrold \
@@ -161,8 +160,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/sony/z3/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/sony/z3/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/sony/z3/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/sony/z3/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/sony/z3/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/sony/z3/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/sony/z3/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so
+    vendor/sony/z3/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so
