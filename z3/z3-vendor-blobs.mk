@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/z3/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/z3/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/z3/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/sony/z3/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
     vendor/sony/z3/proprietary/bin/suntrold:system/bin/suntrold \
     vendor/sony/z3/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/z3/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
